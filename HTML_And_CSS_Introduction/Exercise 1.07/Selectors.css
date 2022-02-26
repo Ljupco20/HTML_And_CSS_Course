@@ -22,3 +22,11 @@ li.selected{
 li.selected ~ li:nth-child(odd) {
     background-color: orange;
 }
+div.media {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.hide {
+    display: none !important;
+}
