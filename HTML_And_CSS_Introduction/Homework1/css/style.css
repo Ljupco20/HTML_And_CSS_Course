@@ -1,0 +1,86 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    color: rgb(240, 255, 255);
+    overflow: hidden;
+    border-bottom: 4px solid #d44c23;
+    font-size: 30px;
+  }
+  #webD {
+      font-size: 25px;
+      font-weight: 600;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    padding: 25px 35px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    /* background-color: #d44c23; */
+    color: #d44c23;  
+  }
+  /* Add a color to the active/current link */
+  /* .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+  span.right {
+    float: right;
+    text-align: left; 
+  }
+
+
+  #showcase {
+    background-image: url("../img/showcase.jpg");  
+    background-size: cover;
+    padding: 200px;
+    
+  }
+ 
+  /* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+    display: inline;
+    
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: #333;
+    display: inline;
+  }
+  
+  /* Style the input elements and the submit button */
+  /* input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block; 
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } */
+  
+  /* Add margins to the checkbox */
+  /* input[type=checkbox] {
+    margin-top: 16px;
+  } */
+  
+  /* Style the submit button */
+  /* input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+   */
+  
