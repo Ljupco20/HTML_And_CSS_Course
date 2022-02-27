@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* background-color: #eeeae4; */
+    height: 50vh;
+}
+
+#pageWrapper {
+    background-color: #eeeae4;
+    padding: 1px;
+
+}
+h1 {
+    margin: 0;
+    padding: 16px;
+
+}
