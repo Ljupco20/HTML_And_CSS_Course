@@ -71,6 +71,17 @@ form {
   margin-bottom: 2%;
   padding: 2%;
 }
+.leftSubscribe {
+  margin-right: 100px;
+  background-color: #333;
+  padding-left: 60px;
+  font-size: 35px;
+
+}
+input {
+  padding: 15px 0px 15px 45px;
+  font-size: 16px;
+}
 button {
   background-color: #d44c23;
   color: #ffffff;
