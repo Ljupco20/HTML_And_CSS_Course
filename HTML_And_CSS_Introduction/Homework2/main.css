@@ -16,3 +16,12 @@ td {
   border-collapse: collapse;
   padding: 10px;
 }
+.language {
+  background: purple;
+  font-weight: bold;
+}
+#aloha {
+  letter-spacing: 8px;
+  font-variant: small-caps;
+  background: green;
+}
