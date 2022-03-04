@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+}
+section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.box1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  padding-bottom: 10%;
+  padding-bottom: 15%;
+}
+
+.box2 {
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+}
+
+.box3 {
+  border-right-width: 2px;
+  border-right-style: double;
+  border-right-color: navy;
+}
