@@ -7,6 +7,7 @@ body {
 }
 h1 {
   color: #ae7182;
+  text-shadow: 2px 2px 8px #c0c0f3;
 }
 a {
   color: hotpink;
@@ -47,4 +48,17 @@ a {
 }
 .language {
   background-color: #262b53;
+}
+#quote {
+  font-size: 0.75em;
+  text-indent: 4em;
+  line-height: 2em;
+}
+div.float-left {
+  float: left;
+  width: 240px;
+  padding: 10px;
+  border: 5px solid white;
+  margin: 10px;
+  margin-right: 60px;
 }
