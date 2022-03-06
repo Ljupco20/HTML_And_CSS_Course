@@ -1,0 +1,14 @@
+header {
+  background-color: #f2a062;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+footer {
+  background-color: #b7ce3f;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
