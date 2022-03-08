@@ -1,0 +1,25 @@
+header,
+nav,
+main,
+aside,
+footer {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 20px;
+}
+main {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+main div {
+  background-color: lightcyan;
+  padding: 20px;
+  margin: 20px;
+}
+aside {
+  float: right;
+}
+footer {
+  clear: both;
+}
