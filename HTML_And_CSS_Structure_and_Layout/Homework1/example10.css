@@ -1,0 +1,37 @@
+body {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+header {
+  background-color: #f2a062;
+  padding: 15px;
+}
+#container {
+  background-color: #edf6f8;
+  width: 80%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 15px;
+}
+aside {
+  background-color: #f6bd62;
+  float: left;
+  box-sizing: border-box;
+  width: 30%;
+  height: 400px;
+  padding: 15px;
+}
+main {
+  background-color: #8eabc0;
+  float: left;
+  box-sizing: border-box;
+  width: 70%;
+  height: 400px;
+  padding: 15px;
+}
+footer {
+  background-color: #b7ce3f;
+  padding: 15px;
+  clear: both;
+}
