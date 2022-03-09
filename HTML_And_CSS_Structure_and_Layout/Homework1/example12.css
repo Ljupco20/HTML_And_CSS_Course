@@ -1,27 +1,63 @@
 div {
-  border: 1px solid black;
+  border: 3px solid #bbbbbb;
   font-family: Arial, Helvetica, sans-serif;
-  margin-right: 300px;
+  margin-right: 400px;
+  color: #604d4b;
+  font-weight: 100;
 }
 ul {
   list-style: none;
 }
 
-ul li::before {
-  content: "\2022";
-  color: red;
+ul .reddot::before {
+  content: "\2688";
+  color: #e55246;
   font-weight: bold;
   display: inline-block;
-  width: 3em;
+  width: 1em;
+  margin-top: 10px;
   margin-left: 1em;
-  font-size: 50px;
+  font-size: 30px;
+}
+ul .orangedot::before {
+  content: "\2688";
+  color: #ee7e50;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-top: 10px;
+  margin-left: 1em;
+  font-size: 30px;
+}
+ul .greendot::before {
+  content: "\2688";
+  color: #a6bc44;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-top: 10px;
+  margin-left: 1em;
+  font-size: 30px;
 }
 li {
   font-size: 30px;
 }
+time {
+  font-size: 15px;
+  margin-left: 5em;
+  color: #bbbbbb;
+}
 p {
   font-size: 30px;
 }
-input {
+input.checkbox {
   float: right;
+  margin: 30px 30px 2px 2px;
+}
+hr {
+  margin-right: 15px;
+  border-color: #bbbbbb;
+}
+.red {
+  color: #e55246;
 }
