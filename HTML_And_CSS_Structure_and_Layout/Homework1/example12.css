@@ -2,8 +2,9 @@ div {
   border: 3px solid #bbbbbb;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 400px;
-  color: #604d4b;
+  color: #837372;
   font-weight: 100;
+  width: 600px;
 }
 ul {
   list-style: none;
