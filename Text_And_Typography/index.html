@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .square {
+        list-style: square;
+      }
+      .circle {
+        list-style: circle;
+      }
+      .upperAplha {
+        list-style: upper-alpha;
+      }
+      .upperRoman {
+        list-style: upper-roman;
+      } */
+      li {
+        list-style: none;
+        font-size: 30px;
+      }
+
+      li:before {
+        content: "·";
+        font-size: 200px;
+
+        vertical-align: middle;s
+        line-height: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="square">Square list style</li>
+      <li class="circle">Circle list style</li>
+      <li class="upperAplha">Upper alpha list style</li>
+      <li class="upperRoman">Upper roman list style</li>
+    </ul>
+  </body>
+</html>
