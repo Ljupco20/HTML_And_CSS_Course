@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./styleH.css" />
+  </head>
+  <body>
+    <form action="register">
+      <div>
+        <label for="first">First Name</label>
+        <input
+          type="text"
+          name="first"
+          id="first"
+          placeholder="First Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="last">Last Name</label>
+        <input
+          type="text"
+          name="last"
+          id="last"
+          placeholder="Last Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+          required
+        />
+      </div>
+      <div>
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+          <option value="kids">under 18</option>
+          <option value="ya">19-30</option>
+          <option value="adults">30-50</option>
+          <option value="seniors">Over 50</option>
+        </select>
+      </div>
+      <p>
+        <label for="requests">Any Special Requests?</label>
+        <br />
+        <textarea
+          id="requests"
+          rows="10"
+          cols="40"
+          name="Requests?"
+          placeholder="Type something here"
+        ></textarea>
+      </p>
+      <div>
+        <input type="checkbox" name="agree_tos" id="agree" required />
+        <label for="agree">I agree on the Terms</label>
+      </div>
+      <button>Register!</button>
+    </form>
+  </body>
+</html>

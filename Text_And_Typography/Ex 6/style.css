@@ -70,7 +70,8 @@ nav a:hover {
 .current-price span {
   font-weight: bold;
   text-decoration: underline;
+  color: blueviolet;
 }
-.saving {
+.savings {
   color: green;
 }
