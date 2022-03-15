@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+}
+div {
+  margin-bottom: 30px;
+}
+fieldset {
+  width: fit-content;
+  padding: 30px;
+  box-shadow: 29px 36px 48px 22px rgba(0, 0, 0, 0.64);
+}
+label {
+  font-size: 20px;
+}
+input,
+textarea {
+  border: 0;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+  width: 200px;
+}
+select {
+  background: transparent;
+  border: 0;
+
+  border-radius: 0;
+
+  border-bottom: 1px solid gray;
+  box-shadow: none;
+  color: #666;
+  -webkit-appearance: none;
+  padding: 10px 0;
+  width: 200px;
+}
+.select-wapper {
+  position: relative;
+  width: 200px;
+}
+.select-wapper:after {
+  content: "<>";
+  color: #666;
+  font-size: 14px;
+  top: 8px;
+  right: 0;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: -1;
+}

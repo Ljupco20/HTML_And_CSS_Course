@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      h1 {
+        display: flex;
+        justify-content: center;
+      }
+      form {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create new account</h1>
+
+    <form action="">
+      <fieldset>
+        <div>
+          <label for="gender">Title</label><br />
+          <select name="gender" id="">
+            <option value="mr">Mr</option>
+            <option value="mrs">Mrs</option>
+            <option value="they">They</option>
+          </select>
+        </div>
+        <div>
+          <label for="firstname">First Name:</label> <br />
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Enter your first name"
+          />
+        </div>
+
+        <div>
+          <label for="lastname">Last Name:</label> <br />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Enter your last name"
+          />
+        </div>
+        <div>
+          <label for="requests">Message:</label>
+          <br />
+          <textarea
+            id="requests"
+            rows="10"
+            cols="40"
+            name="Requests?"
+            placeholder="Type something here"
+          ></textarea>
+        </div>
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
