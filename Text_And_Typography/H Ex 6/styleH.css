@@ -6,7 +6,11 @@ header {
   justify-content: space-around;
   border: 5px solid rgb(83, 69, 69);
   background-color: #0077b6;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
 }
+
 #logo {
   border: 2px solid #9d0208;
   border-radius: 35%;
