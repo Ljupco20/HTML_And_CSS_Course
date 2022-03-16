@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validations Homework</title>
+    <link rel="stylesheet" href="./valHW.css" />
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <div>
+          <label for="firstname">First name:</label> <br />
+          <input
+            type="text"
+            name=""
+            id="firstname"
+            required
+            placeholder="First name"
+          />
+        </div>
+        <div>
+          <label for="lastname">Last name:</label> <br />
+          <input
+            type="text"
+            name=""
+            id="lastname"
+            required
+            placeholder="Last name"
+          />
+        </div>
+        <div>
+          <label for="country">Country:</label> <br />
+          <div class="select-wrapper">
+            <select name="" id="country" required>
+              <option value="england">England</option>
+              <option value="scotland">Scotland</option>
+              <option value="ireland">Ireland</option>
+              <option value="wales">Wales</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label for="message">Message</label> <br />
+          <textarea
+            name=""
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Hello there ..."
+            required
+          >
+          </textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
