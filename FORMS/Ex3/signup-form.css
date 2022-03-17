@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+fieldset {
+  border: 0;
+}
+fieldset > div {
+  margin-bottom: 30px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+label span {
+  color: red;
+}
+input {
+  padding: 10px;
+  width: 200px;
+}
+input:valid {
+  border: 3px solid green;
+}
+
+input:invalid {
+  border: 5px solid green;
+}
+.checkbox input {
+  float: left;
+  margin-right: 10px;
+  width: auto;
+}
+button {
+  background: green;
+  border: 0;
+  color: white;
+  width: 224px;
+  padding: 10px;
+  text-transform: uppercase;
+}

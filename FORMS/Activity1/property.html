@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property portal</title>
+    <link rel="stylesheet" href="./property.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>Property for sale in London</h1>
+      <fieldset>
+        <div class="double-input">
+          <div class="select-wrapper">
+            <label for="country">Search radius: </label>
+            <select name="" id="country" required>
+              <option value="area">This area only</option>
+              <option value="llarea">Larger London area</option>
+              <option value="England">England</option>
+              <option value="gb">Great Britain</option>
+            </select>
+          </div>
+          <div class="select-wrapper">
+            <label for="prop-type">Property type: </label>
+            <select name="" id="prop-type" required>
+              <option value="any" selected>any</option>
+              <option value="residential">residential</option>
+              <option value="commercial">commercial</option>
+              <option value="industrial">industrial</option>
+              <option value="raw_land">raw land</option>
+              <option value="special_use">special use</option>
+            </select>
+          </div>
+        </div>
+        <div class="double-input">
+          <div class="select-wrapper">
+            <label for="price">Price range: </label>
+            <select name="" id="price" required>
+              <option value="any" selected>any</option>
+              <option value="lowest">under 100.000 $</option>
+              <option value="low">between 100.000 $ - 200.000 $</option>
+              <option value="medium">between 200.000 $ - 500.000 $</option>
+              <option value="high">over 500.000 $</option>
+            </select>
+          </div>
+          <div class="select-wrapper">
+            <label for="prop-type">Property type: </label>
+            <select name="" id="prop-type" required>
+              <option value="any" selected>any</option>
+              <option value="lowest">under 100.000 $</option>
+              <option value="low">between 100.000 $ - 200.000 $</option>
+              <option value="medium">between 200.000 $ - 500.000 $</option>
+              <option value="high">over 500.000 $</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

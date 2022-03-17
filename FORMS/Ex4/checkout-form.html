@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./checkout-form.css" />
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <form action="">
+      <fieldset>
+        <h2>Shipping address</h2>
+        <div class="double-input">
+          <div>
+            <label for="first_name">First name <span>*</span></label>
+            <input id="first_name" type="text" name="firstname" required />
+          </div>
+          <div>
+            <label for="last_name">Last name <span>*</span></label>
+            <input type="text" id="last_name" name="lastname" required />
+          </div>
+        </div>
+        <div class="single-input">
+          <label for="address">Address: <span>*</span> </label>
+          <input type="text" name="address" id="address" required />
+        </div>
+        <div class="double-input">
+          <div>
+            <label for="postcode">Postcode: <span>*</span></label>
+            <input id="postcode" type="text" name="postcode" required />
+          </div>
+          <div>
+            <label for="country">Country: <span>*</span> </label>
+            <div class="select-wrapper">
+              <select name="" id="country" required>
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+                <option value="ireland" selected>Ireland</option>
+                <option value="wales">Wales</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <h2>Shipping method</h2>
+        <div class="checkbox">
+          <input
+            type="radio"
+            id="standard"
+            name="shipping-method"
+            value="standard"
+          />
+          <label for="standard">Standard</label>
+        </div>
+        <div class="checkbox">
+          <input
+            type="radio"
+            id="nextday"
+            name="shipping-method"
+            value="nextday"
+          />
+          <label for="nextday">Next day</label>
+        </div>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

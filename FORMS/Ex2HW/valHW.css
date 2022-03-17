@@ -5,8 +5,9 @@ div {
   margin-bottom: 30px;
 }
 fieldset {
-  border: 0;
+  width: fit-content;
   padding: 30px;
+  box-shadow: 29px 36px 48px 22px rgba(0, 0, 0, 0.64);
 }
 label {
   font-size: 20px;
@@ -21,9 +22,10 @@ textarea {
 select {
   background: transparent;
   border: 0;
+  border-radius: 0;
   padding: 10px 0;
   width: 200px;
-  border-radius: 0;
+
   border-bottom: 1px solid gray;
   box-shadow: none;
   color: #666;

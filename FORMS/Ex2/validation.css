@@ -44,3 +44,12 @@ select {
   position: absolute;
   z-index: -1;
 }
+
+input:valid,
+textarea:valid {
+  border-bottom-color: green;
+}
+input:invalid,
+textarea:invalid {
+  border-bottom-color: red;
+}

@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+fieldset {
+  width: fit-content;
+  padding: 30px;
+  box-shadow: 29px 49px 40px 33px rgb(0 0 0 / 64%);
+}
+fieldset > div {
+  margin-bottom: 30px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+label span {
+  color: red;
+}
+input,
+select {
+  border: 3px solid gray;
+  padding: 10px;
+  width: 200px;
+}
+select {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  color: #666;
+  -webkit-appearance: none;
+  width: 100%;
+}
+.select-wrapper {
+  position: relative;
+  width: 222px;
+}
+.select-wrapper:after {
+  content: "< >";
+  color: #666;
+  top: 11px;
+  right: 0;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: -1;
+}
+.single-input input {
+  width: 439px;
+}
+.double-input {
+  display: flex;
+}
+.double-input > div {
+  margin-right: 15px;
+}
+.checkbox input {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+button {
+  background-color: green;
+  border: 0;
+  color: aliceblue;
+  width: 224px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+input:valid {
+  border: 3px solid green;
+}
+input:invalid {
+  border: 3px solid red;
+}
