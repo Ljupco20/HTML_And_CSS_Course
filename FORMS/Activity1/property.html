@@ -45,14 +45,33 @@
             </select>
           </div>
           <div class="select-wrapper">
-            <label for="prop-type">Property type: </label>
-            <select name="" id="prop-type" required>
-              <option value="any" selected>any</option>
-              <option value="lowest">under 100.000 $</option>
-              <option value="low">between 100.000 $ - 200.000 $</option>
-              <option value="medium">between 200.000 $ - 500.000 $</option>
-              <option value="high">over 500.000 $</option>
+            <label for="time-added">Added to site: </label>
+            <select name="" id="time-added" required>
+              <option value="anytime" selected>Anytime</option>
+              <option value="lastyear">last year</option>
+              <option value="thisyear">this year</option>
+              <option value="fresh">fresh</option>
             </select>
+          </div>
+        </div>
+        <div class="different-input">
+          <div class="select-wrapper">
+            <label for="bedrooms">Added to site: </label>
+            <select name="" id="bedrooms" required>
+              <option value="anytime" selected>Anytime</option>
+              <option value="lastyear">last year</option>
+              <option value="thisyear">this year</option>
+              <option value="fresh">fresh</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              id="newsletter"
+              name="newsletter"
+              value="yes"
+            />
+            <label for="newsletter">Include sold properties</label>
           </div>
         </div>
       </fieldset>

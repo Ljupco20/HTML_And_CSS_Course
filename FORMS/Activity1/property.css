@@ -10,7 +10,7 @@ fieldset {
 fieldset > div {
   margin-bottom: 30px;
 }
-input,
+
 select {
   border: 3px solid gray;
   padding: 10px;
@@ -37,9 +37,13 @@ select {
   position: absolute;
   z-index: -1;
 }
-.double-input {
+.double-input,
+.different-input {
   display: flex;
 }
 .double-input > div {
   margin-right: 15px;
+}
+div.checkbox {
+  justify-content: flex-start;
 }
