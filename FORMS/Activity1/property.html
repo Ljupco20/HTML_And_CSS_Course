@@ -12,8 +12,10 @@
       <h1>Property for sale in London</h1>
       <fieldset>
         <div class="double-input">
-          <div class="select-wrapper">
+          <div>
             <label for="country">Search radius: </label>
+          </div>
+          <div class="select-wrapper">
             <select name="" id="country" required>
               <option value="area">This area only</option>
               <option value="llarea">Larger London area</option>
@@ -21,8 +23,10 @@
               <option value="gb">Great Britain</option>
             </select>
           </div>
-          <div class="select-wrapper">
+          <div>
             <label for="prop-type">Property type: </label>
+          </div>
+          <div class="select-wrapper">
             <select name="" id="prop-type" required>
               <option value="any" selected>any</option>
               <option value="residential">residential</option>
@@ -34,8 +38,10 @@
           </div>
         </div>
         <div class="double-input">
-          <div class="select-wrapper">
+          <div>
             <label for="price">Price range: </label>
+          </div>
+          <div class="select-wrapper">
             <select name="" id="price" required>
               <option value="any" selected>any</option>
               <option value="lowest">under 100.000 $</option>
@@ -44,8 +50,10 @@
               <option value="high">over 500.000 $</option>
             </select>
           </div>
-          <div class="select-wrapper">
+          <div>
             <label for="time-added">Added to site: </label>
+          </div>
+          <div class="select-wrapper">
             <select name="" id="time-added" required>
               <option value="anytime" selected>Anytime</option>
               <option value="lastyear">last year</option>
@@ -55,8 +63,8 @@
           </div>
         </div>
         <div class="different-input">
+          <label for="bedrooms">Added to site: </label>
           <div class="select-wrapper">
-            <label for="bedrooms">Added to site: </label>
             <select name="" id="bedrooms" required>
               <option value="anytime" selected>Anytime</option>
               <option value="lastyear">last year</option>
@@ -73,6 +81,16 @@
             />
             <label for="newsletter">Include sold properties</label>
           </div>
+        </div>
+        <button type="submit">Find properties</button>
+        <div>
+          <label for="country">Search radius: </label>
+          <select name="" id="country" required>
+            <option value="area">This area only</option>
+            <option value="llarea">Larger London area</option>
+            <option value="England">England</option>
+            <option value="gb">Great Britain</option>
+          </select>
         </div>
       </fieldset>
     </form>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX Ex11</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #edf6f8;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      header {
+        background-color: #f2a062;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: bolder;
+        display: flex;
+        justify-content: space-between;
+      }
+      header div {
+        background-color: #eb6481;
+      }
+      header nav {
+        background-color: #d76a50;
+      }
+      main {
+        background-color: #8eabc0;
+        width: 100%;
+      }
+      .subContent {
+        background-color: #b7ce3f;
+        color: white;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .subContent h2 {
+        width: 100%;
+      }
+      .subContent p {
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-left: 5%;
+        width: 80%;
+        height: fit-content;
+      }
+      footer {
+        background-color: #b7ce3f;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>logo</div>
+      <nav>Navigation</nav>
+    </header>
+    <main>
+      <section class="subContent">
+        <h2>Post title</h2>
+        <img
+          src="https://i.picsum.photos/id/823/150/150.jpg?hmac=zGwEnMzTJDx1Ecs1x0UIXQs_BA0eqLYIE6gT5iHF-QI"
+          alt="image"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsa
+          doloremque esse voluptas a nisi totam aliquid libero voluptate commodi
+          vero, quod asperiores. Fugiat iusto laboriosam dolorum veritatis
+          facere eaque.
+        </p>
+      </section>
+      <section class="subContent">
+        <h2>Post title</h2>
+        <img
+          src="https://i.picsum.photos/id/823/150/150.jpg?hmac=zGwEnMzTJDx1Ecs1x0UIXQs_BA0eqLYIE6gT5iHF-QI"
+          alt="image"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsa
+          doloremque esse voluptas a nisi totam aliquid libero voluptate commodi
+          vero, quod asperiores. Fugiat iusto laboriosam dolorum veritatis
+          facere eaque.
+        </p>
+      </section>
+      <section class="subContent">
+        <h2>Post title</h2>
+        <img
+          src="https://i.picsum.photos/id/823/150/150.jpg?hmac=zGwEnMzTJDx1Ecs1x0UIXQs_BA0eqLYIE6gT5iHF-QI"
+          alt="image"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsa
+          doloremque esse voluptas a nisi totam aliquid libero voluptate commodi
+          vero, quod asperiores. Fugiat iusto laboriosam dolorum veritatis
+          facere eaque.
+        </p>
+      </section>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>

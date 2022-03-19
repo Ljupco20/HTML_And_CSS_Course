@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX Ex6</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Roboto Mono", monospace;
+        font-weight: bolder;
+        padding: 15px;
+        text-transform: uppercase;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #edf6f8;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      header {
+        background-color: #f2a062;
+        width: 100%;
+      }
+      main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #8eabc0;
+        color: aliceblue;
+      }
+      main article {
+        background-color: #d44d5c;
+        box-sizing: border-box;
+        width: 20%;
+        text-align: center;
+        font-size: 32px;
+        padding: 100px;
+        margin: 15px;
+      }
+      main article:nth-child(5) {
+        background-color: #d8263b;
+      }
+      footer {
+        background-color: #b7ce3f;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <main>
+      <article>1</article>
+      <article>2</article>
+      <article>3</article>
+      <article>4</article>
+      <article>5</article>
+      <article>6</article>
+      <article>7</article>
+      <article>8</article>
+      <article>9</article>
+      <article>10</article>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX Ex7</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        padding: 15px;
+        text-transform: uppercase;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #b7d9e0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      header {
+        background-color: #f2a062;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      header section {
+        background-color: #eb6481;
+        width: 20%;
+      }
+      header nav {
+        background-color: #d76a50;
+        width: 70%;
+      }
+      main {
+        background-color: #8eabc0;
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      main aside {
+        background-color: #f6bd62;
+        width: 20%;
+        height: fit-content;
+      }
+      main section {
+        width: 70%;
+        padding: 0;
+        background-color: #f3a72d;
+      }
+      main section article:first-child {
+        background-color: #507088;
+      }
+      main section article:last-child {
+        background-color: #3a5162;
+      }
+      footer {
+        background-color: #b7ce3f;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section>Logo</section>
+      <nav>Navigation</nav>
+    </header>
+    <main>
+      <aside>Sidebar</aside>
+      <section>
+        <article>Sub content</article>
+        <article>Sub content 2</article>
+      </section>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>

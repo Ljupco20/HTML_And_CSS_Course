@@ -40,10 +40,16 @@ select {
 .double-input,
 .different-input {
   display: flex;
+  width: 800px;
+  align-content: flex-start;
+  justify-content: flex-start;
 }
 .double-input > div {
   margin-right: 15px;
 }
 div.checkbox {
   justify-content: flex-start;
+}
+label {
+  padding: 10px;
 }

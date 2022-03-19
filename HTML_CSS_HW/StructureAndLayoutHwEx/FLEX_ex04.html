@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEX Ex4</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #edf6f8;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      header {
+        background-color: #f2a062;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      header section {
+        background-color: #eb6481;
+      }
+      header nav {
+        background-color: #d76a50;
+      }
+      aside {
+        background-color: #ffba08;
+        width: 20%;
+        height: 500px;
+      }
+      main {
+        background-color: #8eabc0;
+        width: 80%;
+        height: 500px;
+        color: azure;
+      }
+      footer {
+        background-color: #b7ce3f;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section>Logo</section>
+      <nav>Navigation</nav>
+    </header>
+    <aside>Sidebar</aside>
+    <main>Main</main>
+    <footer>Footer</footer>
+  </body>
+</html>
