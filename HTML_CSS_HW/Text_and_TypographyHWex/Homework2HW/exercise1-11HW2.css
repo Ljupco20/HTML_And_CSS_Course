@@ -1,0 +1,17 @@
+section ul {
+  list-style: upper-roman;
+}
+section .web {
+  list-style-type: square;
+}
+p del {
+  background-color: red;
+  color: white;
+}
+p ins {
+  background-color: green;
+  color: white;
+}
+.addres {
+  text-align: center;
+}
