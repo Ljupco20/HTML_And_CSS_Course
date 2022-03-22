@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+fieldset {
+  width: 50%;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15%;
+  font-size: 1.5rem;
+  padding: 20%;
+  list-style-type: circle;
+  line-height: 3.5rem;
+}
+.maintext {
+  font-size: 3.5rem;
+}
