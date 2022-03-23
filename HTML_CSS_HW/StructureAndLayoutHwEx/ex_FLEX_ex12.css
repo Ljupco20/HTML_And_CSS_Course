@@ -14,15 +14,17 @@ body {
   box-sizing: border-box;
 }
 fieldset {
-  width: 40%;
+  width: 36%;
   margin-left: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 div {
   display: flex;
   justify-content: space-between;
   margin-left: -15%;
   font-size: 1.5rem;
-  padding: 6%;
+  padding: 3%;
 
   line-height: 3.5rem;
   align-items: center;
@@ -32,6 +34,7 @@ div {
 }
 label {
   padding-left: 10%;
+  margin: 5%;
 }
 .discbullet.red {
   color: red;
@@ -40,4 +43,12 @@ label {
 .discbullet.orange {
   color: orange;
   font-size: 5rem;
+}
+
+.discbullet.green {
+  color: rgb(132, 212, 12);
+  font-size: 5rem;
+}
+.red {
+  color: red;
 }

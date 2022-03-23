@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 1%;
+  font-size: 3em;
+}
+fieldset {
+  width: 70%;
+  margin: 4% 0 0 1%;
+}
+.select-line {
+  display: flex;
+  margin: 2.5%;
+  height: 3em;
+}
+.select-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  font-size: 1.5em;
+  margin-left: 3%;
+}
+.select-button {
+  width: 65%;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: end;
+  width: 397px;
+  font-size: 1.5em;
+  margin-left: 3%;
+}
+
+div.button {
+  display: flex;
+  justify-content: end;
+  margin: 0 6% 5% 0;
+}
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 1% 7%;
+  font-weight: bold;
+}
+label {
+  margin-left: 5%;
+  font-weight: bold;
+}
