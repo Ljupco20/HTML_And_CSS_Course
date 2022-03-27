@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS Homework</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <button>This is a button</button><br />
+        <button>Click me</button><br />
+        <div id="checkbox">
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Firefox</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Chrome</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Opera</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Safari</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Internet Explorer</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Other</label><br />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Contact information:</legend>
+        <label for="first_name">Name: </label>
+        <input type="text" name="first_name" required />
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required />
+      </fieldset>
+      <input type="hidden" />
+      <input type="hidden" />
+      <input type="text" placeholder="This field is not hidden" />
+      <fieldset>
+        <label for="first_name">Name:</label>
+        <input type="text" name="first_name" required />
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required /><br />
+        <div>
+          <input type="image" src="./images/submit.jpg" alt="Submit" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="username">Username:</label>
+        <input type="text" name="username" required placeholder="Username" />
+      </fieldset>
+      <fieldset>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          required
+          placeholder="Password"
+        />
+      </fieldset>
+      <fieldset>
+        <div>
+          Would you like to subscribe to our mailing list?
+          <label for="suscribing">Yes</label>
+          <input type="radio" name="suscribing" id="yes" />
+          <label for="no">No</label>
+          <input type="radio" name="suscribing" id="no" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Contact information:</legend>
+        <label for="first_name">Name: </label>
+        <input type="text" name="first_name" required />
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required /><br />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Enter your message here ..."
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="some_text">Enter some text:</label>
+        <input type="text" name="some_text" />
+        <br />
+        <button type="submit">Submit</button>
+      </fieldset>
+      <fieldset>
+        <label for="first_name">Name: </label>
+        <input type="text" name="first_name" required /><br />
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required /><br />
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS HW Ex11</title>
+  </head>
+  <body>
+    <form action="">
+      <hr />
+      <h3>A form used to set a users preference for links:</h3>
+      <div>
+        <label for="color">Choose a color for links: </label>
+        <select name="" id="color" required>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </div>
+      <label for="linkcolor">Underline links?</label>
+      <input type="radio" name="linkcolor" id="" />
+      <label for="linkcolor">Yes</label>
+      <input type="radio" name="linkcolor" id="" />
+      <label for="linkcolor">No</label>
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+      <h3>A form used to register a user to a forum:</h3>
+      <fieldset>
+        <legend>Contact information:</legend>
+        <label for="first_name">Name: </label>
+        <input type="text" name="first_name" required /><br />
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required /><br />
+
+        <div id="checkbox">
+          <label for=""
+            >Which web browser do you use?(Check all that apply)</label
+          >
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Firefox</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Chrome</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Opera</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Safari</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Internet Explorer</label><br />
+          <input type="checkbox" name="checkbox1" />
+          <label for="checkbox1">Other</label><br />
+        </div>
+        <label for="forumsig">Enter a forum signature: </label><br />
+        <textarea
+          name="forumsig"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="some text..."
+        ></textarea
+        ><br />
+        <label for="password">Choose a password: </label>
+        <input type="password" name="password" id="" /><br />
+        <label for="passwordRT">Re-type password: </label>
+        <input type="password" name="passwordRT" id="" /><br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
