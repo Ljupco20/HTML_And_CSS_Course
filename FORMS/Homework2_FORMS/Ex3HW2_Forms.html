@@ -4,16 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Exercise 3 HW2 Forms</title>
     <style>
+      * {
+        box-sizing: inherit;
+      }
+      body {
+        box-sizing: border-box;
+      }
       fieldset {
-        width: 40%;
+        width: 50%;
         margin: 0 auto;
+        padding: 0;
       }
       h2 {
         background-color: #ffd700;
         text-align: center;
         color: red;
+        margin: 0;
+        padding: 5px;
+        border: 1px solid black;
       }
       td {
         background-color: #00bfff;
@@ -21,15 +31,19 @@
         border: 1px solid black;
       }
       table {
-        border-spacing: 6px;
+        /* border-spacing: 6px; */
+        width: 100%;
+      }
+      .btn_table {
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <form action="">
       <fieldset>
+        <h2>Registration Form</h2>
         <table>
-          <h2>Registration Form</h2>
           <tr>
             <td>
               <label for="">Enter Name</label>
@@ -63,6 +77,55 @@
                 rows="10"
                 placeholder="Write your address"
               ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Select a game</label></td>
+            <td>
+              <input type="checkbox" name="" id="hockey" />
+              <label for="hockey">Hockey</label><br />
+              <input type="checkbox" name="" id="football" />
+              <label for="football">Football</label><br />
+              <input type="checkbox" name="" id="badminton" />
+              <label for="badminton">Badminton</label><br />
+              <input type="checkbox" name="" id="cricket" />
+              <label for="cricket">Cricket</label><br />
+              <input type="checkbox" name="" id="volleyball" />
+              <label for="volleyball">Volleyball</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" id="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" />
+              <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Select ur age</td>
+            <td>
+              <select name="" id="">
+                <option value="select">Select</option>
+                <option value="underaged">Under 18</option>
+                <option value="young_adult">18-30</option>
+                <option value="adult">30-60</option>
+                <option value="senior">60+</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Select Photo</td>
+            <td>
+              <input type="file" name="" id="" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="btn btn_table">
+              <button>Click Me</button>
+              <button type="reset">Reset</button>
+              <button type="submit">Submit</button>
             </td>
           </tr>
         </table>
