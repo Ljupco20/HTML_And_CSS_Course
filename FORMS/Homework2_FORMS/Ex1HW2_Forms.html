@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 1 HW2 Forms</title>
+    <style>
+      table,
+      td {
+        border-collapse: collapse;
+        border: 1px solid black;
+        padding: 5px;
+        background-color: bisque;
+      }
+      #lastr {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <table>
+          <tr>
+            <th colspan="2"><label for="">Sign in</label></th>
+          </tr>
+          <tr>
+            <td><label for="e-mail">E-mail address</label></td>
+            <td><input type="email" name="e-mail" id="password" /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password" id="password" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" id="lastr">
+              <button type="submit" id="btn">Sign in</button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
