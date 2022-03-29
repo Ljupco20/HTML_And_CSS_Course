@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: rgb(211, 208, 29);
+  box-sizing: border-box;
+}
+fieldset {
+  width: 35%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  background-color: #023047;
+}
+h3 {
+  background-color: #fb8500;
+  width: 35%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+}
+
+table {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #023047;
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  background-color: #fb8500;
+  font-size: 1.5rem;
+}
+.btn {
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  margin: 1.2rem;
+  padding: 1.2rem 2.5rem;
+}
+.btn-red {
+  background-color: red;
+}
