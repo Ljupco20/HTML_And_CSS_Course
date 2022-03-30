@@ -14,34 +14,29 @@ body {
   color: rgb(211, 208, 29);
   box-sizing: border-box;
 }
-fieldset {
-  width: 35%;
-  margin: 0 auto;
-  font-size: 1.5rem;
-  background-color: #023047;
-}
-h3 {
+
+.orange {
   background-color: #fb8500;
-  width: 35%;
-  margin: 0 auto;
-  font-size: 1.5rem;
   padding: 1.2rem;
+  margin: 0;
+  /* display: flex;
+  justify-content: end; */
 }
 
 table {
-  padding: 1.2rem;
-  display: flex;
-  justify-content: space-around;
-
+  margin: 0 auto;
   background-color: #023047;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
-footer {
-  display: flex;
-  justify-content: end;
-  background-color: #fb8500;
-  font-size: 1.5rem;
+td {
+  padding: 1.1rem 1.5rem;
+}
+.label_right {
+  text-align: end;
+}
+.right {
+  text-align: end;
 }
 .btn {
   background-color: green;
@@ -52,6 +47,7 @@ footer {
   font-size: 1.5rem;
   margin: 1.2rem;
   padding: 1.2rem 2.5rem;
+  text-align: end;
 }
 .btn-red {
   background-color: red;
