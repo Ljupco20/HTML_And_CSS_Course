@@ -1,3 +1,9 @@
+/* Author: Ljupco Trajanovski
+   Date: 31.03.2022
+   File name: style.css
+
+*/
+/* CSS Reset */
 *,
 *::after,
 *::before {
@@ -5,30 +11,55 @@
   padding: 0px;
   border: 0;
 }
+
+/* Style rules for body and images */
+
 body {
-  background-color: #ccc;
+  background-color: #000;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*Style rules for mobile viewport  */
+
+
+
+/*Style rules for header  */
 
 header {
-  float: left;
-  width: 25%;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  background-color: #000;
+  height: 190px;
+  z-index: 1;
+  font-family: 'Roboto Slab', serif;
 }
 
+header img {
+  margin: 0 auto;
+}
+/* Style rules for navigatin area */
+
 nav {
-  float: right;
-  margin: 5em 3em 0 0;
-  width: 70%;
+  padding: 1%;
+  margin-bottom: 1%;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  text-align: right;
+  text-align: center;
 }
 
 nav ul li {
-  display: inline-block;
-  font-size: 1.75em;
+  font-size: 1.5em;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+    /* display: inline-block; */
+  /* font-weight: bold; */
+  
 }
 
 nav ul li a {
@@ -38,6 +69,8 @@ nav ul li a {
   padding: 0.5em 1em;
   text-decoration: none;
 }
+/* Style rules for main content */
+
 main {
   clear: left;
   background-color: #fff;
@@ -61,10 +94,7 @@ h1 {
   margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-}
+
 
 #hero {
   position: relative;
@@ -80,6 +110,9 @@ img {
 .arrow-bullets {
   list-style-image: url("/Images_and_Links_05/Forward-Fitness/images/arrow.png");
 }
+
+/* Style rules for footer content */
+
 footer p {
   font-size: 0.75em;
   text-align: center;
