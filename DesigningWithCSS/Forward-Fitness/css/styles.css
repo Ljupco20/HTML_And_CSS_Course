@@ -1,0 +1,253 @@
+body,
+header,
+nav,
+main,
+footer,
+h1,
+ul,
+div,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*Style rules for body and images*/
+body {
+  background-color: #000;
+}
+/* Style rules for header*/
+header {
+  position: -webkit-sticky;
+  position:sticky;
+  top: 0;
+  background-color: #000;
+  height: 190px;
+  z-index: 1;
+}
+header img {
+  margin: 0 auto;
+}
+/* Style rules for navigation area */
+nav {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav ul li {
+  font-size: 1.3em;
+  font-family: Francois;
+  border-top: 1px solid #fff;
+}
+nav ul li:first-child {
+  border-top: none;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+
+}
+nav ul li a:hover {
+    color: #000;
+    background-color: #fff;
+    border-radius: 100px;
+}
+/*show mobile class, hide table-decktop class*/
+.mobile {
+  display: block;
+}
+.tablet-desktop {
+  display: none;
+}
+/* Styles rules fo main content */
+main {
+  background-color: #fff;
+  padding: 2%;
+  font-size: 1.15em;
+  font-family: Roboto Slab, serif;
+}
+.tel-link {
+  background-color: #404040;
+  padding: 2%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+.tel-link a {
+  color:#fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+.hours {
+  margin-left: 10%;
+}
+h1 {
+  text-align: center;
+}
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.round {
+  border-radius: 10px;
+}
+#hero {
+  clear: both;
+  position: relative;
+}
+#hero h2 {
+  position: absolute;
+  color: white;
+  margin-left: 30px;
+}
+/* Style rukes for footer content */
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  padding: 0 1em;
+}
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+#weights,
+#cardio,
+#training {
+  margin: 0 2%;
+}
+.map {
+    border: 2px solid #000;
+    width: 95%;
+    height: 50%;
+  }
+/* Media Query for Tablet Viewport*/
+@media screen and (min-width: 630px) {
+
+/* Tablet Viewport: Show tablet desktop class, hide mobile class*/
+.mobile {
+    display: none;
+}
+
+.tablet-desktop {
+    display: block;
+}
+
+/* Tablet Viewport: Style rule for header*/
+header {
+    position: static ;
+    padding-bottom: 2%;
+}
+/* Tablet Viewport: Style rule for nav area*/
+nav ul li {
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+}
+nav li:last-child {
+    border-right: none;
+}
+nav li a {
+    padding: 0.1em 0.75em;
+}
+/* Tablet Viewport: Style rule for main content area*/
+main ul {
+    margin: 0 0 4% 10%;
+}
+
+#exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: linear-gradient(to right, #ccc, #fff);
+    background-color: #F2F2F2;
+    padding: 1% 2%;
+  }
+  #exercises dt {
+    font-weight: bold;
+  }
+  #exercises dd {
+    padding: 0.5% 1% 2% 0;
+  }
+  .tel-num {
+      font-size: 1.25em;
+  }
+  .map {
+      width: 600px;
+      height: 450px;
+  }
+  
+}
+/* Media Query for Desktop Viewport*/
+@media screen and (min-width:781px) {
+    /* Desktop Viewport: style rule for header*/
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0  0;
+    }
+    nav ul {
+        text-align: right;
+    }
+    nav ul li {
+        border: none;
+    }
+    nav ul li a {
+        padding: 0.5em 1em;
+    }
+    /* Desktop Viewport: Style rules for main content */
+    main {
+        clear: both;
+    }
+    main h1 {
+        font-size: 1.8em;
+    }
+#waights, #cardio, #training {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+#exercises {
+    clear: both;
+}
+}
+/* Media Query for Large Desktop Viewport*/
+@media screen and (min-width:1921px) {
+    /* Desktop Viewport: style rule for header*/
+ 
+
+}
+
+#contact {
+  text-align: center;
+}
+#contact .contact--email {
+  color: #666600;
+  text-decoration: none;
+}
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+}
+.external-link {
+  color: #666600;
+  font-weight: bold;
+  text-decoration: none;
+}
+
