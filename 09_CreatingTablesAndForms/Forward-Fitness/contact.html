@@ -16,8 +16,21 @@ Angelov-->
 
   <body>
     <div id="container">
+      <!-- Mobile Nav -->
+      <nav class="mobile-nav">
+        <div id="menu-links">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About us</a>
+          <a href="./classes.html">Classes</a>
+          <a href="./nutrition.html">Nutrition</a>
+          <a href="./contact.html">Contact Us</a>
+        </div>
+        <a class="menu-icon">
+          <div>&#9776;</div>
+        </a>
+      </nav>
       <!--Use the header area for the website name or logo-->
-      <header>
+      <header id="ffc-logo">
         <a href="./index.html">
           <img
             src="./images/forward-fitness-logo.png"
@@ -64,17 +77,69 @@ Angelov-->
             class="map"
           ></iframe>
         </div>
+
         <div id="form">
-          <h2>Complete the form below to begin your free trial</h2>
-          <form action="">
+          <h2>Complete the form below to begin your free trial.</h2>
+          <form action="post" class="form-grid">
+            <!--Start Form-->
             <fieldset>
-              <!-- Start form -->
-              <legend>Customer information</legend>
-              <label for="fName">First Name: </label>
-              <input type="text" name="fName" id="fName" required />
-              <label for="lName">Last Name: </label>
-              <input type="text" name="lName" id="lName" required />
+              <legend>Customer Information</legend>
+              <label for="fname">First Name:</label>
+              <input type="text" name="fname" id="fname" required />
+              <label for="lname">Last Name:</label>
+              <input type="text" name="lname" id="lname" required />
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required />
+              <label for="phone">Phone:</label>
+              <input type="tel" name="phone" id="phone" required />
             </fieldset>
+            <fieldset>
+              <legend>Additional Information</legend>
+              <p>I would like more information about:</p>
+              <label for="grpfit"
+                ><input
+                  type="checkbox"
+                  name="interest"
+                  id="grpfit"
+                  value="Group Fitness"
+                />Group Fitness</label
+              >
+              <label for="prtrain"
+                ><input
+                  type="checkbox"
+                  name="interest"
+                  id="prtrain"
+                  value="Personal Training"
+                />Personal Training</label
+              >
+              <label for="nutr"
+                ><input
+                  type="checkbox"
+                  name="interest"
+                  id="nutr"
+                  value="Nutrition"
+                />Nutrition</label
+              >
+            </fieldset>
+            <fieldset>
+              <legend>Referral Source</legend>
+              <label for="reference">How did you find us?</label>
+              <select name="reference" id="reference">
+                <option value="ad">Advertisement</option>
+                <option value="friend">Friend</option>
+                <option value="google">Google</option>
+                <option value="social">Social Media</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="questions">Questions?</label>
+              <textarea
+                name="questions"
+                id="question"
+                cols="25"
+                rows="10"
+              ></textarea>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit" class="btn" />
           </form>
         </div>
       </main>
