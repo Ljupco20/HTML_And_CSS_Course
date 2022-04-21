@@ -1,0 +1,36 @@
+/*
+Author: Ljupco Trajanovski
+Date: 21.04.2022
+File Name: styles.css
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* Style rules for hero image and header */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome {
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    padding: 2em;
+}
+
+.welcome p {
+    font-size: 1.25em;
+    width: 70%;
+    line-height: 1.5;
+}
